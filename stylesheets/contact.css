@@ -1,0 +1,174 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+input {
+    border: solid 1px #D4D4D4;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+textarea {
+    border: solid 1px #D4D4D4;
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 30px;
+    background-color: #3a7bd5;
+    margin: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    margin-top: 50px;
+    color: white;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0);
+    background-color: #FFFFFF;
+    color: #3a7bd5;
+    border-color: #3a7bd5;
+}
+
+.header {
+    height: 50px;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    color:white;
+    display: flex;
+}
+
+.menu-option{
+    display: flex;
+    margin-right: 20px;
+}
+
+
+.menu-option p{
+    padding: 10px;
+    padding-top: 13px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.active {
+    border-bottom:solid 2px white;
+}
+
+.menu-option:hover {
+    border-bottom:solid 2px white;
+    cursor: pointer;
+}
+
+.menu-option img {
+    width: 25px;
+    height: 25px;
+    margin-top: 13px;
+}
+
+.left-pane {
+    height: auto;
+    background-color: #F2F2F2;
+
+}
+
+#pic {
+    border: solid 2px #3a7bd5;
+    padding: 5px;
+    width:135px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#pic img {
+    width: 120px;
+    height: 120px;
+}
+
+.thumbs {
+    height:20px;
+    width:20px;
+}
+
+.thumb-holder {
+    height:30px;
+    width: 30px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 50%;
+    border: solid 1px #4A4A4A;
+}
+
+.contact {
+    margin-left: 50px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+.contact img{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.thumbs-1 {
+    height:40px;
+    width:40px;
+}
+
+.thumb-holder-1 {
+    height:60px;
+    width: 60px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 50%;
+    border: solid 1px #4A4A4A;
+}
+
+
+
+
+
+
+
+
