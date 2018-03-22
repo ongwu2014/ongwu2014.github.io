@@ -154,6 +154,25 @@ button:hover {
     margin-left: 70px;
 }
 
+.paper {
+    border: 1px solid lightgray;
+    width: 48%;
+    height: auto;
+    padding-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+}
+
 
 
 

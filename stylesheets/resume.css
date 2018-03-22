@@ -147,5 +147,20 @@ ul li {
     height: 20px;
 }
 
+.card {
+    background-color: white;
+    width: 20%;
+    height: auto;
+    font-size: 1.5em;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.fa {
+    padding-top: -10px;
+}
+
 
 
