@@ -6,6 +6,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="stylesheets/portfolio.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container-fluid">
@@ -201,7 +202,7 @@
 
                 <div class="experience">
                     <div style="width: 100%; display: flex;">
-                        <div class="paper" style="margin-right: 4%;">
+                        <div class="paper" id="elastic" style="margin-right: 4%;">
                             <p align="center"><strong>Abstract</strong></p>
                             <p align="justify" style="padding-left: 20px;padding-right: 20px;"><em>Elasticsearch is a search engine used in most databases. As a search engine, it must be able to analyze data, index document correctly (either implicitly or explicitly), and sort documents based on order of importance. The sorting mechanism of elasticsearch (relevant scoring) applies three techniques in its algorithm. These techniques are explored and their behaviors at extremities were closely monitored and modeled to better understand if and how they can beapplied to large data set to select a smaller relevant subset of data (data mining)...</em></p>
                             <div style="width: 100%; background-color: #F2F2F2; text-align: center;">
@@ -209,7 +210,7 @@
                             </div>
                         </div>
 
-                        <div class="paper">
+                        <div class="paper" id="initiative">
                             <p align="center"><strong>Abstract</strong></p>
                             <p align="justify" style="padding-left: 20px;padding-right: 20px;"><em>As new technologies emerge, new ethical issues and concerns are bound to surface along with them. Computing, over the years, has moved from machines that need humans to think for them to those that think for themselves. Such ability thus comes with great risks. Computer Scientists and Software Engineers must design these system to make ethically right choices autonomously. The baseline result of every decision-making process is a choice. This article begins with the introduction of psychological constructs that control these choices: persuasion and ...</em></p>
                             <div style="width: 100%; background-color: #F2F2F2; text-align: center;">
@@ -221,7 +222,7 @@
 
                 <div class="experience" style="margin-bottom: 50px">
                     <div style="width: 100%; display: flex;">
-                        <div class="paper" style="margin-right: 4%;">
+                        <div class="paper" id="gaussian" style="margin-right: 4%;">
                             <p align="center"><strong>Abstract</strong></p>
                             <p align="justify" style="padding-left: 20px;padding-right: 20px;"><em>The concept of binomial coefficient is really important in the fields of combinatorics, a mathematical field focusing on the study of discrete structures that are countable or finite. Although various method of calculation binomial coefficient given index n and k exits, this study focuses on one of the most efficient one – the multiplicative formula. The general idea of solutions for binomial coefficients is discussed with major focus on the formula of interest. The algorithm for the multiplicative method is examined to elaborate the ideas behind the method and how part of the algorithm work to ...</em></p>
                             <div style="width: 100%; background-color: #F2F2F2; text-align: center;">
@@ -229,7 +230,7 @@
                             </div>
                         </div>
 
-                        <div class="paper">
+                        <div class="paper" id="multiplicative">
                             <p align="center"><strong>Abstract</strong></p>
                             <p align="justify" style="padding-left: 20px;padding-right: 20px;"><em>In linear algebra, the concept of Gaussian Elimination is really important in finding the solutions of systems of linear equations. Variations of this algorithm exists and many pivoting methods can be applied in order to reduce error in the algorithm. This study focus on the solution of a linear system with n equations and m unknown variables using Gaussian Elimination. The general idea of Gaussian Elimination is discussed including methods of reducing errors and its variations. The algorithm for Gaussian Elimination is then examined to elaborate the ideas behind ...</em></p>
                             <div style="width: 100%; background-color: #F2F2F2; text-align: center;">
@@ -243,5 +244,21 @@
         </div>
 
     </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#elastic').click(function(){
+                window.location.href = "web/viewer.html?file=research.pdf";
+            });
+            $('#initiative').click(function(){
+                window.location.href = "web/viewer.html?file=initiative.pdf";
+            });
+            $('#gaussian').click(function(){
+                window.location.href = "web/viewer.html?file=gaussian.pdf";
+            });
+            $('#multiplicative').click(function(){
+                window.location.href = "web/viewer.html?file=multiplicative.pdf";
+            });
+        });
+    </script>
 </body>
 </html>
