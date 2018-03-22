@@ -104,7 +104,7 @@ input[type="submit"]:hover {
 .left-pane {
     height: auto;
     background-color: #F2F2F2;
-
+    min-height: 100vh;
 }
 
 #pic {
