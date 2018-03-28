@@ -1254,7 +1254,7 @@ var PDFViewerApplication = {
     if (this.isViewerEmbedded) {
       return;
     }
-    document.title = title;
+    document.title = "Ngwu | PDF Viewer";
   },
   close: function close() {
     var errorWrapper = this.appConfig.errorWrapper.container;
